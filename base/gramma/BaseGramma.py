@@ -15,7 +15,7 @@ from platform import python_version
 print("Hello Python", "zkr", "test")
 list1 = ["a", "b", "c"]
 print(list1)
-var = 1 // 2
+rr = 1 // 2
 print(-1 // 2)
 print('Python', python_version())
 # 打印Python中全部保留字
@@ -49,7 +49,8 @@ print(num1, bool1, float1, complex1)
 
 word = '字符串'
 sentence = "这是一个句子"
-paragraph = """这是一个段落，可以由多行组成"""
+paragraph = """这是一个段落，
+可以由多行组成"""
 print(word, sentence, paragraph)
 
 str1 = '123456789'
