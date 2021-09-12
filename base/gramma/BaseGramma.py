@@ -111,4 +111,36 @@ for i in sys.argv:
     print(i)
 print("\npython 路劲为", sys.path)
 
+print("======数据类型-整数======")
+a = 10_000_000_000
+b = 10000000000
+print("十亿：", a, b)
+
+print("======数据类型-浮点型======")
+a = 1.23e9
+b = 12.3e8
+c = 0.000012
+d = 1.2e-5
+print(a, b)
+print(a == b)
+print(c, d)
+print(c == d)
+
+print("======数据类型-字符串======")
+# 转义字符\可以转义很多字符，比如\n表示换行，\t表示制表符，字符\本身也要转义，所以\\表示的字符就是\，可以在Python的交互式命令行用print()打印字符串看看：
+print('I\'m OK')
+print('I\'m learning\npython')
+print('\\\n\\')
+
+# 如果字符串里面有很多字符都需要转义，就需要加很多\，为了简化，Python还允许用r''表示''内部的字符串默认不转义，可以自己试试：
+print("\\\t\\")
+print(r"\\\t\\")
+print('''
+line1
+line2
+line3
+''')
+
+a = None
+print(a)
 
